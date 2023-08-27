@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* width: 90%; */
+}
+a{
+    text-decoration: none;
+    color: #a1a1a1;
+}
+
+body{
+    margin: auto;
+    width: 90%;
+
+    
+}
+
+p , h1{
+    margin-bottom: 30px;
+}
+p{
+    font-size: 1.2em;
+}
+
+
+header{
+    background-color: black;
+    color: #a1a1a1;
+}
+
+footer{
+    background-color: black;
+    color: #a1a1a1;
+    display: flex;
+    justify-content: center;
+}
+
+header ,footer{
+    margin: 20px 0px 20px 0px;
+     padding: 20px 20px 20px 20px;
+     font-size: 1.5em;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
