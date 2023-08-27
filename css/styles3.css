@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    /* max-width: 90%; */
+    margin: auto;
+}
+
+body{
+    max-width: 80%;
+    margin-top: 30px;
+    line-height: 200%;
+    background-color: rgb(1, 77, 77);
+    color: antiquewhite;
+}
+
+html{
+    background-color: #222;
+}
+
+.header-div{
+    border: 1px solid #a1a1a1;
+    height: 250px;
+    background: url("../img/background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+.header-text{
+    margin: 60px 0 0 70px;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    /* border: 3px solid #111; */
+    margin: 20px 0 0px 0px;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.2em;
+    color: whitesmoke;
+    background-color: #888;
+}
+
+.section-1, .section-2, aside{
+    /* border: 3px solid #111; */
+
+}
+
+
+aside{
+    /* width: 20%; */
+}
+
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 30px;
+    
+}
+
+.left-side{
+    margin-left: 10px;
+}
+
+.section-2{
+    display: flex;
+}
+
+ p{
+    margin: 20px;
+    font-size: 1.2em;
+}
+
+h2{
+    margin: 20px;
+    font-size: 1.7em;
+}
+.article-3{
+    border-left: 1px solid #a1a1a1;
+}
+
+button{
+    /* margin-left: 10px; */
+    margin: 30px 0 20px 10px;
+    height: 50px;
+    width: 100px;
+}
+
+ul{
+    margin: 30px 0 30px 0;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+footer{
+    display: flex;
+}
+footer a {
+    margin: auto;
+}
